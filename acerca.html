@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --padding-container: 100px 0;
+            --color-title: #001A49;
+            --color-bg: #f9f9f9;
+            --color-button: #2091F9;
+            --color-button-hover: #0066cc;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--color-bg);
+            color: #333;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: var(--padding-container);
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #001A49;
+            color: #fff;
+        }
+
+        .hero__title {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        .about {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .subtitle {
+            color: var(--color-title);
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+        }
+
+        .about__paragraph {
+            line-height: 1.7;
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+
+        .button-back {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #fff;
+            background-color: var(--color-button);
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-back:hover {
+            background-color: var(--color-button-hover);
+        }
+
+        footer {
+            background-color: #1D293F;
+            padding: 20px 0;
+            text-align: center;
+            color: #fff;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <h1 class="hero__title">Syspro</h1>
+    </header>
+
+    <main>
+        <section class="about container">
+            <h2 class="subtitle">Acerca de este proyecto</h2>
+            <p class="about__paragraph">
+                Este proyecto fue desarrollado como parte del programa de Ingeniería de Computación en <strong>Syspro</strong>. 
+                Su objetivo es integrar habilidades de diseño web, programación y bases de datos para crear una solución funcional y accesible.
+            </p>
+            <p class="about__paragraph">
+                Exploramos tecnologías modernas y buenas prácticas para brindar una experiencia óptima al usuario, demostrando el aprendizaje y la innovación en el desarrollo de soluciones digitales.
+            </p>
+            <a href="index.html" class="button-back">Volver</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Syspro. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

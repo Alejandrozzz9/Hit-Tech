@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Comentarios</title>
+    <link rel="stylesheet" href="css/blog-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        
+         {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            line-height: 1.6;
+        }
+
+    
+        .hero {
+            background: linear-gradient(135deg, #4e6185, #1D293F);
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            border-bottom-left-radius: 50% 25px;
+            border-bottom-right-radius: 50% 25px;
+        }
+
+        .hero__title {
+            font-size: 3.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .hero__paragraph {
+            font-size: 1.2rem;
+            font-weight: 400;
+            margin-bottom: 20px;
+            opacity: 0.8;
+        }
+
+    
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 20px;
+        }
+
+        .nav__title {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: white;
+        }
+
+        .nav__link {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav__items {
+            font-size: 1rem;
+        }
+
+        .nav__links {
+            color: white;
+            text-decoration: none;
+            font-weight: 400;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav__links:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        
+        .comments {
+            max-width: 1200px; 
+            margin: -70px auto 40px;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+        }
+
+        .subtitle {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        
+        .comments__list {
+            margin-top: 40px;
+        }
+
+        .comment {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        
+        .footer {
+            background-color: #1D293F;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-top-left-radius: 50% 25px;
+            border-top-right-radius: 50% 25px;
+        }
+
+        .footer__title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .footer__copy {
+            font-size: 1rem;
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav">
+            <h1 class="nav__title">Blog de Comentarios</h1>
+            <div id="sfcf49w3a9xagshs7x6h8ach7djgeq4d5fj"></div><script type="text/javascript" src="https://counter6.optistats.ovh/private/counter.js?c=f49w3a9xagshs7x6h8ach7djgeq4d5fj&down=async" async></script><noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas para el blog"><img src="https://counter6.optistats.ovh/private/contadorvisitasgratis.php?c=f49w3a9xagshs7x6h8ach7djgeq4d5fj" border="0" title="contador de visitas para el blog" alt="contador de visitas para el blog"></a></noscript>
+            <ul class="nav__link">
+                <li class="nav__items"><a href="index.html" class="nav__links">Inicio</a></li>
+            </ul>
+        </nav>
+        <div class="hero__container">
+            <h1 class="hero__title">Deja tus Comentarios</h1>
+            <p class="hero__paragraph">Comparte tus pensamientos con otros usuarios.</p>
+        </div>
+    </header>
+
+    <main class="comments">
+        <div class="container">
+            <h2 class="subtitle">Comentarios</h2>
+            
+            <div id="utterances-comments"></div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <h2 class="footer__title">Blog de Comentarios</h2>
+            <p class="footer__copy">© 2024 Blog de Comentarios. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    
+    <script>
+        (function() {
+            const script = document.createElement("script");
+            script.src = "https://utteranc.es/client.js";
+            script.setAttribute("repo", "Alejandrozzz9/gestion-comentarios");
+            script.setAttribute("issue-term", "pathname");
+            script.setAttribute("theme", "icy-dark");
+            script.crossOrigin = "anonymous";
+            script.async = true;
+            document.getElementById("utterances-comments").appendChild(script);
+        })();
+    </script>
+</body>
+</html>

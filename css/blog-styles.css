@@ -1,11 +1,11 @@
-/* Reset de márgenes y paddings */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Definir la fuente */
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f7f7f7;
@@ -14,9 +14,9 @@ body {
     margin: 0;
 }
 
-/* Estilo para el header */
+
 .hero {
-    background: linear-gradient(135deg, #4e73df, #1a73e8);
+    background: linear-gradient(135deg, #1D293F, #1D293F);
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -38,7 +38,7 @@ body {
     opacity: 0.8;
 }
 
-/* Estilo de la navegación */
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -75,9 +75,9 @@ body {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* Estilo del formulario de comentarios */
+
 .comments {
-    max-width: 900px;
+    max-width: 90px;
     margin: -70px auto 40px;
     padding: 40px;
     background-color: #fff;
@@ -133,7 +133,7 @@ body {
     transform: scale(1.05);
 }
 
-/* Estilo para la lista de comentarios */
+
 .comments__list {
     margin-top: 40px;
 }
@@ -151,9 +151,9 @@ body {
     color: #666;
 }
 
-/* Estilo para el pie de página */
+
 .footer {
-    background-color: #1a73e8;
+    background-color: #1D293F;
     color: white;
     text-align: center;
     padding: 20px;

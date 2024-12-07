@@ -1,0 +1,133 @@
+/* Reset and General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #1D293F, #1D293F);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    border-bottom-left-radius: 50% 25px;
+    border-bottom-right-radius: 50% 25px;
+}
+
+.hero__title {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.hero__paragraph {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+/* Social Buttons */
+.comments {
+    max-width: 90%;
+    margin: -70px auto 40px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.social-buttons {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin-top: 20px;
+}
+
+.social-btn {
+    background-color: #1a73e8;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+}
+
+.social-btn:hover {
+    background-color: #4e73df;
+    transform: scale(1.05);
+}
+
+/* Specific Colors for Social Buttons */
+.whatsapp {
+    background-color: #25D366;
+}
+
+.facebook {
+    background-color: #4267B2;
+}
+
+.instagram {
+    background-color: #E4405F;
+}
+
+.email {
+    background-color: #FF9800;
+}
+
+.phone {
+    background-color: #4CAF50;
+}
+
+/* Footer */
+.footer {
+    background-color: #1D293F;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top-left-radius: 50% 25px;
+    border-top-right-radius: 50% 25px;
+}
+
+.footer__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.cta {
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta:hover {
+    background-color: #4e73df;
+    transform: scale(1.05);
+}
+
+.footer__copy {
+    font-size: 1rem;
+    margin-top: 10px;
+}
